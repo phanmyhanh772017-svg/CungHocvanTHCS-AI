@@ -1,7 +1,7 @@
 streamlit
-# Cố định Pydantic v1 để tránh xung đột với LangChain
+# Cố định Pydantic ở phiên bản v1 (dưới 2.0) để tương thích với LangChain
 pydantic<2.0 
-# Cố định các thư viện LangChain để đảm bảo tương thích
+# Cố định các phiên bản LangChain đã được kiểm chứng là ổn định và tương thích
 langchain-core>=0.1.52
 langchain-google-genai>=0.0.12
 langchain
