@@ -1,4 +1,7 @@
 streamlit
+# Cố định Pydantic v1 để tránh xung đột với LangChain
+pydantic<2.0 
+# Cố định các thư viện LangChain để đảm bảo tương thích
+langchain-core>=0.1.52
+langchain-google-genai>=0.0.12
 langchain
-langchain-core
-langchain-google-genai
